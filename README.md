@@ -17,7 +17,7 @@ AdaCache is a simple configuration-less automated caching solution that works wi
 
 AdaCache serves as a middleware that intercepts incoming requests and outgoing responses and performs cache lookup and cache store. Here is a simple diagram of the architecture:
 
-![architecture](Presentation1.png =90x150)
+<img src="Presentation1.png" width="200"/>
 
 ### When and what to cache?
 AdaCache caches response for every GET request. It internally maps each request to a controller and an action method to identify each request uniquely. Controller-action pair is always unique, so AdaCache generates a hash for each controller-action pair to perform cache storage and lookup.
