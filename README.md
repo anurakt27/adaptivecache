@@ -11,7 +11,7 @@ Simple adaptive caching for ASP.NET Core.
 AdaCache is a simple configuration-less automated caching solution that works with ASP.NET Core web projects. To maintain its configuration-less feature, AdaCache makes few assumptions:
 * Using HTTP methods as intended. For e.g., using GET to retrieve resource and using POST to create new resource. If GET is used to create a resource, then the caching algorithm would not work as expected.
 
-* Controllers should follow [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle#:~:text=The%20single%2Dresponsibility%20principle%20(SRP,it%20should%20encapsulate%20that%20part.&text=Hence%2C%20each%20module%20should%20be%20responsible%20for%20each%20role.), AdaCache is most effective in that case. For e.g., a controller named WeatherController should only  serve CRUD operations for Weather resource. AdaCahe would still work if SRP is not followed, but the efficiency will be less.
+* Controllers should follow [Single Responsibility Principle!](https://en.wikipedia.org/wiki/Single-responsibility_principle#:~:text=The%20single%2Dresponsibility%20principle%20(SRP,it%20should%20encapsulate%20that%20part.&text=Hence%2C%20each%20module%20should%20be%20responsible%20for%20each%20role.), AdaCache is most effective in that case. For e.g., a controller named WeatherController should only  serve CRUD operations for Weather resource. AdaCahe would still work if SRP is not followed, but the efficiency will be less.
 
 ## Architecture
 
