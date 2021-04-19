@@ -6,6 +6,7 @@ Simple adaptive caching for ASP.NET Core.
 * [Architecture](#architecture)
 * [Setup](#setup)
 * [Example](#example)
+* [Contact](#contact)
 
 ## General Info
 AdaCache is a simple configuration-less automated caching solution that works with ASP.NET Core web projects. To maintain its configuration-less feature, AdaCache makes few assumptions:
@@ -70,3 +71,6 @@ public IEnumerable<WeatherForecast> Get()
 ##### Response timing of second ```GET``` request
 
 <img src="req2.PNG" />
+
+## Contact
+Reach out to me at anuraktofficial@gmail.com if you have any ideas or wish to contribute to this project.
