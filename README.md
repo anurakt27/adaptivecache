@@ -21,7 +21,7 @@ AdaCache serves as a middleware that intercepts incoming requests and outgoing r
 AdaCache caches response for every GET request. It internally maps each request to a controller and an action method to identify each request uniquely. Controller-action pair is always unique, so AdaCache generates a hash for each controller-action pair to perform cache storage and lookup.
 
 ### How is caching performed?
-AdaCache internally implements an AVL tree that stores several HTTPResponseMessage, that can be uniquely identified using controller-action hashcode.
+AdaCache internally implements an AVL tree that stores several responses uniquely identifiable via controller-action hashcode.
 
 ### When to delete from cache?
 Whenever a PUT/POST/DELETE/PATCH action is performed by a controller, AdaCache assumes that the cached responses for that specific controller are no longer be valid since the resource has now been modified, it will discard the response(s). 
