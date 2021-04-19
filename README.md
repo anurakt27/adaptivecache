@@ -65,8 +65,8 @@ public IEnumerable<WeatherForecast> Get()
 
 ##### Response timing of first ```GET``` request
 
-<img src="req1png.png" />
+<img src="req1PNG.PNG" />
 
 ##### Response timing of second ```GET``` request
 
-<img src="req2.png" />
+<img src="req2.PNG" />
