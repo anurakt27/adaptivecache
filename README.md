@@ -18,7 +18,7 @@ AdaCache is a simple configuration-less automated caching solution that works wi
 
 AdaCache serves as a middleware that intercepts incoming requests and outgoing responses and performs cache lookup and cache store. Here is a simple diagram of the architecture:
 
-<img src="Presentation1.png" width="400" height="300"/>
+<img src="images/Presentation1.png" width="400" height="300"/>
 
 ### When and what to cache?
 AdaCache caches response for every ```GET``` request. It internally maps each request to a controller and an action method to identify each request uniquely. Controller-action pair is always unique, so AdaCache generates a hash for each controller-action pair to perform cache storage and lookup.
@@ -66,11 +66,11 @@ public IEnumerable<WeatherForecast> Get()
 
 ##### Response timing of first ```GET``` request
 
-<img src="req1PNG.PNG" />
+<img src="images/req1PNG.PNG" />
 
 ##### Response timing of second ```GET``` request
 
-<img src="req2.PNG" />
+<img src="images/req2.PNG" />
 
 ## Contact
 Reach out to me at anuraktofficial@gmail.com if you have any ideas or wish to contribute to this project.
